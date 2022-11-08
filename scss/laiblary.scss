@@ -1,0 +1,140 @@
+
+
+
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --light-gray:#c9c6c1;
+    --icon-color:#b8b3af;
+  }
+
+  .bg-bike{
+    background-color: #f3f3f3;
+  }
+
+  .footer-bg{
+    background-color: #464646;
+  }
+
+
+      
+  @media (max-width:450px) {
+  
+  .responsive-font{
+   font-size:1.5rem !important
+  }
+
+  .para-responsive{
+      font-size: 1.2rem !important;
+  }
+  }
+
+  .center-all-data{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+     
+        
+
+       .me-auto{
+           margin: 20px auto;
+       }
+
+  
+       .cooman-family{
+           font-family: serif;
+       }
+
+       .comman-font{
+            font-size: 2rem;
+
+            @media (max-width:991px) {
+                font-size: 1.5rem;
+            }
+       }
+        .font-ultra{
+          font-size: 4.5rem;
+          font-weight: 700;
+          color: #FDF4DC;
+
+          @media (max-width:991px) {
+              font-size: 3rem;
+          }
+
+          
+          @media (max-width:768px) {
+                font-size: 2.5rem;
+               }
+
+               @media (max-width:580px) {
+                font-size: 2rem;
+               }
+        }
+
+        .comman-fonts{
+              font-size: 3.5rem;
+
+              @media (max-width:991px) {
+                    font-size: 2.5rem;
+              }
+        }
+
+           .btn-book{
+                    padding: 10px 14px;
+                    border: 2px solid #3c67e3;
+                    background-color: black;
+
+                    @media (max-width:500px) {
+                        font-size: 1rem !important;
+                    }
+             }
+
+            .btn-book:hover{
+                animation: book-btn 1s 
+                ease-in-out;
+            }
+
+            @keyframes book-btn {
+
+                0%{
+                    box-shadow: 0 0 25px #5ddcff,
+                                0 0 50px #4e00c2;
+                }
+                
+            }
+
+            .text-clip {
+                // background-image: url(https://alogic.co/media/catalog/product/cache/d1cc151…/m/e/media-17732.jpg);
+                background-image: linear-gradient(90deg,#2ca2b4,#5598de 24%,#7f87ff 45%,#f65aad 76%,#ec3d43);
+                -webkit-background-clip:text;
+                color: transparent;
+               }
+           
+
+               .main-text{
+
+                background-image:linear-gradient(90deg,#2ca2b4,#5598de 24%,#7f87ff 45%,#f65aad 76%,#ec3d43);
+                -webkit-background-clip:text;
+                color: transparent;
+              
+               }
+
+
+               .text-light-text {
+                -webkit-background-clip:text;
+                background-image:linear-gradient(90deg,#1e3791 0%,#2948b1 40%,#3153c6 55%,#385fda 60%);
+                color: transparent;
+               }
+
+
+               .comman-text-bg {
+                -webkit-background-clip:text;
+                background-image:linear-gradient(90deg,#e355b2, #f04f6e, #ed6565, #eb8a59, #eb8a59 60%);
+                color: transparent;
+               }
+
+
+               
+

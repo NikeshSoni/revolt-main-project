@@ -1,0 +1,215 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    // font-family: "Work sans", sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+    
+   
+}
+
+
+            .info{
+                background-color: #f3f3f3;
+            }
+
+// body{
+//     font-family: 'Montserrat', sans-serif;
+//     font-family: 'Niramit', sans-serif;
+// }
+
+    .nav-bar{
+        height: 80px;
+        background-color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 50px 0 100px;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+        
+                .main-logo{
+                    width: 20%;
+                   
+                    img{
+                        width: 60%;
+                    }
+                    
+                }
+
+                #click{
+                    display: none;
+                }
+
+                .menu-btn{
+                    i{
+                        cursor: pointer;
+                    }
+                }
+                .nav-bar-list{
+                       display: flex;
+
+                    .nav-bar-link{
+                        list-style: none;
+                        margin:  0 20px;
+                        letter-spacing: 1px;
+
+                            a{
+                                font-size: 1.5rem;
+                                text-decoration: none;
+                                text-decoration: none;
+                             }  
+                        }
+                }
+
+                        .nav-bar-list{
+                            position: fixed;
+                            top: 80px;
+                            right: -100%;
+                            background-color:#464646;
+                            height: 100vh;
+                            width: 30%;
+                            // display: block;
+                            align-items: center;
+                            flex-direction: column;
+                            transition: .5s;
+                            z-index: 999;
+                            opacity: 9999;
+
+
+                            .nav-bar-link{
+                                margin: 8px 0;
+
+                                a{
+                                    font-size: 2rem;
+                                }
+                            }
+
+                            @media (max-width:768px) {
+                                width: 50%;
+                            }
+    
+                        }
+                    }
+
+    .nav-bar{   
+        .menu-btn{
+            i{
+               display: block;
+             }
+
+             }
+
+    #click:checked ~ .menu-btn{
+        i:before{
+           content:"+";
+        }
+    }
+
+    #click:checked ~ .nav-bar-list{
+            left: 0%;
+      }
+
+   }
+
+    .nav-bar{
+        padding-left: 50px;
+    }
+
+    .nav-bar{
+        padding-left: 30px;
+    }
+
+            .comman-btn{
+                border: 1px solid #000;
+                padding: 6px 14px;
+                margin-right: 20px;
+                border-radius: 5px;
+                font-weight: 600;
+
+                &:hover{
+                    color: #fff !important;
+                    background-color: #000;
+                    transition: .5s;
+                }
+            }
+
+      /*  =====================================
+           header section end here
+         ===========================*/
+
+
+
+         .data-bike{
+            border: 1px solid #000;
+            border-radius: 12px;
+         }
+
+
+         .explore-btn{
+            padding: 10px 15px;
+            border-radius: 10px;
+            border: none;
+            border: 1px solid #000;
+         }
+
+         .explore-btn:hover{
+            background-color: gray !important;
+            transition: .5s;
+        }
+
+
+            @media (min-width:768px) {
+                .main-img{ 
+                    position: relative !important;
+                  }
+
+                  .data-img{
+                    position: absolute !important;
+                    z-index: 999;
+                    text-align: left !important;
+                }
+            }
+
+
+            .main-sound{
+                width: 3px;
+                height: 30px;
+                background: #000;
+            }
+
+
+
+            .position{
+                 position: absolute;
+            }
+
+            
+            .position-main{
+                position: absolute;
+                transition: 1s;
+                // overflow: hidden;
+           }
+
+           #active{
+              display: block;
+           }
+
+           .new{
+              width: 125px;
+              margin: 20px auto 0 auto;
+           }
+
+        //    .slide-wapper{
+        //         // width: 100%;
+        //         // margin: 0 auto;
+        //         // display: flex;
+        //         // text-align: center;
+        //         // align-items: center;
+        //         // justify-content: center;
+        //    }
